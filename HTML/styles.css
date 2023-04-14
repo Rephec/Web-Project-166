@@ -7,7 +7,7 @@ body{
     background: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color:white ;
+    color:rgb(0, 0, 0) ;
     font-size: 24px;
     display: flex;
     flex-direction: column;
