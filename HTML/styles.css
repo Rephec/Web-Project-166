@@ -96,3 +96,38 @@ body{
         right: 0;
       }
       /* Image slider end */
+
+      /* Navbar */
+      .header-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 8em;
+        background-color: #wheat;
+    }
+    
+    .logo, a{
+        color: whitesmoke;
+        margin: 0;
+        cursor: pointer;
+        list-style: none;
+        font-size: larger;
+    }
+    
+    .nav-links{
+        list-style: none;
+    }
+    
+    .nav-links li{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    
+    .nav-links li a{
+        color:whitesmoke;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav-links li a:hover {
+     color: rgb(191, 243, 5)
+    }
