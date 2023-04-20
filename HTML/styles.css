@@ -98,7 +98,7 @@ body{
       /* Image slider end */
 
       /* Navbar */
-      .header-navbar{
+    .header-navbar{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -131,7 +131,5 @@ body{
     .nav-links li a:hover {
      color: rgb(191, 243, 5)
     }
-
-    /* form page */
-    
+ /* nav bar ends */
     
