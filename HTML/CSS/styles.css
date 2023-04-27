@@ -142,3 +142,14 @@ body{
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+  /* Service page */
+
+.service-imagediv  {
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .img-landcaped {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
