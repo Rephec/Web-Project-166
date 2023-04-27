@@ -145,11 +145,11 @@ body{
 
   /* Service page */
 
-.service-imagediv  {
+  .service-img{
     transition: opacity 0.3s ease-in-out;
   }
 
-  .img-landcaped {
-    opacity: 0.7;
+  .service-img:hover{
+    opacity: .9;
     transform: scale(1.1);
   }
