@@ -2,7 +2,7 @@
     margin: 5px;
     box-sizing: border-box;
 }
-body{
+.body{
     height: 95vh;
     background: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,6 +54,9 @@ body{
         }
     }
     
+    .content-title{
+      text-decoration: underline;
+    }
     /* Image slider */
     .carousel {
         position: relative;
@@ -152,4 +155,31 @@ body{
   .service-img:hover{
     opacity: .9;
     transform: scale(1.1);
+  }
+
+
+  /* Form */
+
+  .form-section{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  .test {
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: rgb(190, 110, 29);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
   }
